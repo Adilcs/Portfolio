@@ -1,9 +1,9 @@
+import React, {Component} from 'react'
 
-function App() {
-  return (
+class App extends Component {
+  render() {return (
     <div className="App">
-      <header className="App-header">
-
+      <header className="App2">
         <h1>
           Website Creation (Initial Commit)
         </h1>
@@ -11,5 +11,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
